@@ -48,7 +48,7 @@ const navbat = {
     },
     test: async (req, res) => {
 
-
+let testBranch = 1;
         const navbat = await navbatModel.find()
         res.render('admin/timepeak', {
             layout: false,
